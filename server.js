@@ -11,7 +11,7 @@ const addQuestion = require('./routes/addQuestion.route');
 const config = require('./config.json');
 const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/OrderManagmentSystem');
+mongoose.connect('mongodb://localhost/LearningHorizon');
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());

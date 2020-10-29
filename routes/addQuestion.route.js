@@ -73,7 +73,7 @@ router.post('/addQuestionAnswer', tokenChecker ,function async (req, res) {   //
 
 
 
-router.get('/getAllQuestion', tokenChecker, function (req, res) {     // GET API for getting exploring tutor 
+router.get('/getAllQuestion', tokenChecker, function (req, res) {     
 
 
 
@@ -85,7 +85,7 @@ router.get('/getAllQuestion', tokenChecker, function (req, res) {     // GET API
          {
             res.json({
                "quizTitle": "Learning Horizon Quiz Portal For Tutor's",
-               "quizSynopsis": "Learning Horizon started in 2000 with Speech & Drama as well as camps primarily for preschool children. Our trainers are hand-picked and undergo extensive in-house training with regular assessments.",
+               "quizSynopsis": "Learning Horizon Quiz",
                "questions":notes
             
             });

@@ -1,5 +1,5 @@
 {
-    "secret": "some-secret-shit-goes-here",
+    "secret": "comsians",
     "port": 3000,
     "tokenLife": 900,
     "refreshTokenLife": 86400
